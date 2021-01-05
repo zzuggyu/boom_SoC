@@ -1,0 +1,213 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'cnt_100:inst1|carry_tmp'
+Slack : -2.167
+TNS   : -11.318
+
+Type  : Slow Model Setup 'clk'
+Slack : -1.361
+TNS   : -20.850
+
+Type  : Slow Model Setup 'mmsec_gen:inst|mmsig'
+Slack : -1.135
+TNS   : -7.668
+
+Type  : Slow Model Setup 'cnt_60:inst2|sec_one[0]'
+Slack : -0.747
+TNS   : -9.871
+
+Type  : Slow Model Setup 'cnt_60:inst2|carry_tmp'
+Slack : -0.568
+TNS   : -1.458
+
+Type  : Slow Model Hold 'cnt_100:inst1|carry_tmp'
+Slack : -2.787
+TNS   : -9.177
+
+Type  : Slow Model Hold 'clk'
+Slack : -1.360
+TNS   : -3.125
+
+Type  : Slow Model Hold 'cnt_60:inst2|sec_one[0]'
+Slack : 0.325
+TNS   : 0.000
+
+Type  : Slow Model Hold 'cnt_60:inst2|carry_tmp'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'mmsec_gen:inst|mmsig'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'cnt_60:inst2|carry_tmp'
+Slack : -1.747
+TNS   : -6.988
+
+Type  : Slow Model Recovery 'cnt_100:inst1|carry_tmp'
+Slack : -1.724
+TNS   : -10.407
+
+Type  : Slow Model Recovery 'clk'
+Slack : -0.662
+TNS   : -1.198
+
+Type  : Slow Model Recovery 'mmsec_gen:inst|mmsig'
+Slack : -0.180
+TNS   : -1.620
+
+Type  : Slow Model Recovery 'cnt_60:inst2|sec_one[0]'
+Slack : 0.861
+TNS   : 0.000
+
+Type  : Slow Model Removal 'cnt_60:inst2|sec_one[0]'
+Slack : -1.664
+TNS   : -24.342
+
+Type  : Slow Model Removal 'clk'
+Slack : 0.288
+TNS   : 0.000
+
+Type  : Slow Model Removal 'cnt_100:inst1|carry_tmp'
+Slack : 0.292
+TNS   : 0.000
+
+Type  : Slow Model Removal 'mmsec_gen:inst|mmsig'
+Slack : 0.450
+TNS   : 0.000
+
+Type  : Slow Model Removal 'cnt_60:inst2|carry_tmp'
+Slack : 2.017
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'clk'
+Slack : -1.380
+TNS   : -32.380
+
+Type  : Slow Model Minimum Pulse Width 'nRst'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Slow Model Minimum Pulse Width 'cnt_100:inst1|carry_tmp'
+Slack : -0.500
+TNS   : -10.000
+
+Type  : Slow Model Minimum Pulse Width 'mmsec_gen:inst|mmsig'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'cnt_60:inst2|carry_tmp'
+Slack : -0.500
+TNS   : -5.000
+
+Type  : Slow Model Minimum Pulse Width 'cnt_60:inst2|sec_one[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'cnt_100:inst1|carry_tmp'
+Slack : -0.729
+TNS   : -2.941
+
+Type  : Fast Model Setup 'clk'
+Slack : -0.140
+TNS   : -0.470
+
+Type  : Fast Model Setup 'mmsec_gen:inst|mmsig'
+Slack : -0.041
+TNS   : -0.197
+
+Type  : Fast Model Setup 'cnt_60:inst2|carry_tmp'
+Slack : -0.001
+TNS   : -0.001
+
+Type  : Fast Model Setup 'cnt_60:inst2|sec_one[0]'
+Slack : 0.255
+TNS   : 0.000
+
+Type  : Fast Model Hold 'cnt_100:inst1|carry_tmp'
+Slack : -1.638
+TNS   : -6.535
+
+Type  : Fast Model Hold 'clk'
+Slack : -1.073
+TNS   : -5.072
+
+Type  : Fast Model Hold 'cnt_60:inst2|sec_one[0]'
+Slack : 0.119
+TNS   : 0.000
+
+Type  : Fast Model Hold 'cnt_60:inst2|carry_tmp'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'mmsec_gen:inst|mmsig'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'cnt_60:inst2|carry_tmp'
+Slack : -0.747
+TNS   : -2.988
+
+Type  : Fast Model Recovery 'cnt_100:inst1|carry_tmp'
+Slack : -0.719
+TNS   : -4.278
+
+Type  : Fast Model Recovery 'clk'
+Slack : 0.127
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'mmsec_gen:inst|mmsig'
+Slack : 0.257
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'cnt_60:inst2|sec_one[0]'
+Slack : 0.808
+TNS   : 0.000
+
+Type  : Fast Model Removal 'cnt_60:inst2|sec_one[0]'
+Slack : -0.881
+TNS   : -13.073
+
+Type  : Fast Model Removal 'clk'
+Slack : -0.068
+TNS   : -1.445
+
+Type  : Fast Model Removal 'cnt_100:inst1|carry_tmp'
+Slack : 0.030
+TNS   : 0.000
+
+Type  : Fast Model Removal 'mmsec_gen:inst|mmsig'
+Slack : 0.123
+TNS   : 0.000
+
+Type  : Fast Model Removal 'cnt_60:inst2|carry_tmp'
+Slack : 1.127
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'clk'
+Slack : -1.380
+TNS   : -32.380
+
+Type  : Fast Model Minimum Pulse Width 'nRst'
+Slack : -1.222
+TNS   : -1.222
+
+Type  : Fast Model Minimum Pulse Width 'cnt_100:inst1|carry_tmp'
+Slack : -0.500
+TNS   : -10.000
+
+Type  : Fast Model Minimum Pulse Width 'mmsec_gen:inst|mmsig'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'cnt_60:inst2|carry_tmp'
+Slack : -0.500
+TNS   : -5.000
+
+Type  : Fast Model Minimum Pulse Width 'cnt_60:inst2|sec_one[0]'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------
